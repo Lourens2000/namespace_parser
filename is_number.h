@@ -1,5 +1,5 @@
 namespace master_parser {
-    template <char C0, char... Cs> // if Cs is empty?
+    template <char C0, char... Cs>
     struct is_number  // ..
         : std::conditional_t<(is_number<C0>::value) || C0 == '.'
             , is_number<Cs...>, std::false_type>
