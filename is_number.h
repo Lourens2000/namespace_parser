@@ -1,4 +1,4 @@
-namespace master_parser {
+namespace parser {
     template <char C0, char... Cs>
     struct is_number  // ..
         : std::conditional_t<(is_number<C0>::value) || C0 == '.'
