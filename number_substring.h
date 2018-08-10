@@ -1,4 +1,4 @@
-namespace parser {
+namespace ct_parser {
     namespace variadic {
 
         template <typename SEQ, char C0, char... Cs>
