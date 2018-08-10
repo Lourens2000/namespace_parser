@@ -1,4 +1,4 @@
-namespace parser {
+namespace ct_parser {
     namespace variadic {
         template <char C0, char... Cs>
         struct is_number  // ..
